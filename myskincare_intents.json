@@ -13,8 +13,8 @@
                 "Selamat siang."
             ],
             "responses": [
-                "Halo, terima kasih untuk bentanya",
-                "Senang bertemu deganmu lagi.",
+                "Halo, mau tanya apa nih",
+                "Senang bertemu denganmu lagi.",
                 "Hai, ada yang bisa kubantu?"
             ],
             "context": [
@@ -46,11 +46,11 @@
                 "Terima kasih",
                 "Itu sangat membantu.",
                 "Mengagumkan, terima kasih",
-                "Terima kasih telah membantu saya"
+                "Terima kasih telah membantu saya",
+                "Makasih"
             ],
             "responses": [
                 "Senang bisa membantu!",
-                "Kapan saja!",
                 "Dengan senang Hati.",
                 "Sama-sama."
             ],
@@ -88,12 +88,20 @@
             "tag": "products-for-eyecreams",
             "patterns": [
                 "Dapatkah Anda berbagi produk eyecream yang tersedia?",
-                "krim mata",
+                "cream mata",
                 "produk mata",
-                "merekomendasikan krim mata cerave"
+                "eye cream",
+                "mata panda",
+                "merekomendasikan cream mata"
             ],
             "responses": [
-                "Kulit Renewing Eye Cream/ Krim Perbaikan Mata"
+                "Kulit Renewing Eye Cream",
+                "Kiehl's creamy eye treatment with avocado, harga rp. 375.000 - Rp. 664.000",
+                "skintific 360 crystal massager lifting eye cream, harga Rp 229.000",
+                "white story peptide eye cream, harga Rp 52.7000",
+                "wardah renew you anti aging eye cream, harga Rp 91.000",
+                "whitelab eye cream, harga Rp 84.000"
+
             ],
             "context": [
                 ""
@@ -104,9 +112,30 @@
             "patterns": [
                 "Dapatkah Anda membagikan produk pembersih wajah yang tersedia?",
                 "pembersih tersedia",
-                "merekomendasikan mencuci wajah cerave yang baik"
+                "merekomendasikan mencuci wajah yang baik",
+                "rekomendasi face wash",
+                "rekomendasi sabun wajah",
+                "rekomendasi sabun muka"
+
+
             ],
             "responses": [
+                "The Originote Low pH Cicamide Facial Cleanser",
+                "Dear Me Beauty Skin Barrier Face Gel",
+                "Harlette Oatmilk Gentle Facial Wash",
+                "BIYU Pure Gentle Cleanser",
+                "Cetaphil Hydrating Foaming Cream Cleanser",
+                "True to Skin Matcha Oat Gentle Cleanser",
+                "Cetaphil Gentle Skin Cleanser",
+                "SOMETHINC  Low pH Gentle Jelly Cleanser",
+                "TRUEVE  Gentle Low pH Facial Cleanser",
+                "SCORA Salicylic Acid Gentle Low pH Cleanser",
+                "Emina Bright Stuff for Acne Prone Skin Face Wash",
+                "The Originote Cicamide Facial Cleanser",
+                "Balanced Gel Cleanser", 
+                "Hada Labo Gokujyun Ultimate Moisturizing Face Wash",
+                "Scarlett Whitening Acne Facial Care Wash",
+                "Cetaphil Oily Skin Cleanser",
                 "Membuat Penghapusan Balm - Mengkompres Penghapusan Mata - Penghapusan Toner - Pemusnahan Penghapusan Penghapusan Penghapusan-Based - Membuat Penghapusan Pakaian Pembersih-Hydrating Facial Cleancer -Acne Control Cleanser -Acne Foaming Cream Cleanser -Rewing SA Cleaner -Hydrating Cream-to-Fodrating Cream-Foam Cleanialser-Foam Faciealser"
             ],
             "context": [
@@ -118,9 +147,19 @@
             "patterns": [
                 "Dapatkah Anda berbagi produk Moisturizer Facial yang tersedia?",
                 "krim untuk kulit kering",
-                "merekomendasikan mositurizer yang baik"
+                "merekomendasikan mositurizer yang baik",
+                "moisturizer yang bagus",
+                "moisturizer kulit berminyak",
+                "moisturizer kulit berjerawat", 
+                "pelembab yang bagus"
+
             ],
             "responses": [
+                "Somethinc Ceramic Skin Saviour Moisturizer Gel",
+                "Noola Dew Moisturizer,Brand skincare Noola ini berfokus kepada concern skin barrier, Toppers. Produk dari brand ini pun aman untuk kulit sensitif. Moisturizer keluaran Noola, yang dinamakan Dew Moisturizer, merupakan pelembap berbahan dasar air yang ringan dan tidak",
+                "Hada Labo Gokujyun Ultimate Moisturizing Milk,Hada Labo Gokujyun Ultimate Moisturizing Milk memiliki 3 jenis hyaluronic yang fungsi melembapkannya tidak main-main, Toppers. Teksturnya ringan banget, jadi nyaman sekali untuk digunakan. Untuk kamu yang sensitif terhadap alkohol, tenang saja. Moisturizer ini juga tidak mengandung alkohol, kok.", 
+                "POND’s Juice Collection Moisturizer WatermelonKamu juga bisa mendapatkan kulit glowing tanpa harus mengocek kantong terlalu dalam, kok. POND’s Juice Collection Moisturizer yang varian semangka ini selain lembap, menyegarkan pula untuk dipakai. Formulanya oil-free dan cocok untuk semua kulit, kok!", 
+                "Dear Me Beauty Skin Barrier Water Cream,kin Barrier Water Cream dari Dear Me Beauty adalah pelembap water-based yang bisa digunakan pada pagi dan malam hari yang mengandung niacinamide, peptide,",
                 "-AM Facial Moisturizing Luion with Sunscreen -PM Facial Moisturizing Lotion -Daily Moisturizing -Skin Renewing Eye Cream -Skin Renewing Night -Eye Reparasi Cream -Hydrating Hyaluronic Acidaid Serum -Ultra-Light Moisturizing Lotion SP 30-Skin Renewing Day Cream-Skin Gel Oil"
             ],
             "context": [
@@ -160,9 +199,16 @@
             "patterns": [
                 "Dapatkah Anda berbagi produk Serum wajah yang tersedia?",
                 "serum berbagi",
-                "berbagi beberapa serum cerve wajah yang baik"
+                "berbagi beberapa serum cerve wajah yang baik",
+                "rekomendasi serum",
+                "serum yang bagus"
             ],
             "responses": [
+                " Avoskin Your Skin Bae Vitamin C 3% + Niacinamide 2% + Mandarin Orange Fruit Extract Serum",
+                " Scarlett Glowtening Serum 15 ml", 
+                " Clinelle WhitenUp Brightening Serum 20 m", 
+                " Illuminare Brightening Serum ",
+                " Somethinc 5% Niacinamide + Moisture Sabi Beet Serum 20 ml",
                 "Membuat Ulang Penghapusan Balm - Mengkompor Penghapusan Pembuat Mata - Penghapusan Toner - Menghalangi Penghapusan Uap Tanaman-Bas"
             ],
             "context": [
