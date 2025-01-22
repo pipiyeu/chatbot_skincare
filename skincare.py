@@ -50,7 +50,7 @@ lbl_enc = LabelEncoder()  # Membuat objek LabelEncoder
 y = lbl_enc.fit_transform(df['tag'])  # Mengonversi label kelas menjadi angka
 
 # Memuat model yang telah dilatih sebelumnya
-model_path = 'chatbot_skincare_model.h5'  # Perbarui dengan path yang benar
+model_path = 'skincare_model.h5'  # Perbarui dengan path yang benar
 loaded_model = load_model(model_path)  # Memuat model yang telah dilatih
 
 # Ahkir dari Seting Data =======================================================================================================
