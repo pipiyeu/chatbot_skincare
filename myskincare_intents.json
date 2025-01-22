@@ -1,0 +1,760 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hai",
+                "Bagaimana kabarmu?",
+                "Apa kabar di sana?",
+                "Hei.",
+                "Hai",
+                "Hola",
+                "Halo",
+                "Selamat siang."
+            ],
+            "responses": [
+                "Halo, terima kasih untuk bentanya",
+                "Senang bertemu deganmu lagi.",
+                "Hai, ada yang bisa kubantu?"
+            ],
+            "context": [
+                "- Ya."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Sampai nanti",
+                "Selamat tinggal",
+                "Senang mengobrol denganmu, bye",
+                "Sampai jumpa."
+            ],
+            "responses": [
+                "Sampai jumpa!",
+                "Have a nice day",
+                "Kembali lagi nanti."
+            ],
+            "context": [
+                "- Ya."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Terima kasih",
+                "Terima kasih",
+                "Itu sangat membantu.",
+                "Mengagumkan, terima kasih",
+                "Terima kasih telah membantu saya"
+            ],
+            "responses": [
+                "Senang bisa membantu!",
+                "Kapan saja!",
+                "Dengan senang Hati.",
+                "Sama-sama."
+            ],
+            "context": [
+                "- Ya."
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Maaf, aku tidak mengerti.",
+                "Tolong beri aku info lagi.",
+                "Tidak yakin aku mengerti"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "Bagaimana kau bisa membantuku?",
+                "Apa yang membantu Anda menyediakan?",
+                "Bagaimana kau bisa membantu?"
+            ],
+            "responses": [
+                "Saya panduan perawatan kulit Anda tentang Cerave Products. - Saya bisa merekomendasikan rutin perawatan kulit berdasarkan jenis kulit Anda - saya dapat memberikan informasi mengubah Produk Cerave - saya dapat membimbing Anda tentang produk berdasarkan bahan-bahan - saya juga dapat memberikan tips perawatan kulit"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-eyecreams",
+            "patterns": [
+                "Dapatkah Anda berbagi produk eyecream yang tersedia?",
+                "krim mata",
+                "produk mata",
+                "merekomendasikan krim mata cerave"
+            ],
+            "responses": [
+                "Kulit Renewing Eye Cream/ Krim Perbaikan Mata"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-facial-cleansers",
+            "patterns": [
+                "Dapatkah Anda membagikan produk pembersih wajah yang tersedia?",
+                "pembersih tersedia",
+                "merekomendasikan mencuci wajah cerave yang baik"
+            ],
+            "responses": [
+                "Membuat Penghapusan Balm - Mengkompres Penghapusan Mata - Penghapusan Toner - Pemusnahan Penghapusan Penghapusan Penghapusan-Based - Membuat Penghapusan Pakaian Pembersih-Hydrating Facial Cleancer -Acne Control Cleanser -Acne Foaming Cream Cleanser -Rewing SA Cleaner -Hydrating Cream-to-Fodrating Cream-Foam Cleanialser-Foam Faciealser"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-facial-moisturizers",
+            "patterns": [
+                "Dapatkah Anda berbagi produk Moisturizer Facial yang tersedia?",
+                "krim untuk kulit kering",
+                "merekomendasikan mositurizer yang baik"
+            ],
+            "responses": [
+                "-AM Facial Moisturizing Luion with Sunscreen -PM Facial Moisturizing Lotion -Daily Moisturizing -Skin Renewing Eye Cream -Skin Renewing Night -Eye Reparasi Cream -Hydrating Hyaluronic Acidaid Serum -Ultra-Light Moisturizing Lotion SP 30-Skin Renewing Day Cream-Skin Gel Oil"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-body-cleansers",
+            "patterns": [
+                "Dapatkah Anda membagikan produk pembersih Tubuh yang tersedia?",
+                "merekomendasikan body cleansers",
+                "ada produk tubuh yang tersedia?"
+            ],
+            "responses": [
+                "-Itch Relief Moisturising Lotion -Daily Moisturizing Lusion -Daily Moisturizing Lotion -Daily Moisturizing Lution for Rough & Bully -SA Lotion for Rough & Bumpy Skin\\Eczema Relief Cream -Psoriasis Moistalis Moisturizing Cream -Diabeics Reliefing Cream -Therapetic Hand Cream -Therapetic Hand Babyurising Lotion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-body-moisturizers",
+            "patterns": [
+                "Dapatkah Anda berbagi produk Moisturizer Tubuh yang tersedia?",
+                "merekomendasikan pelembab tubuh",
+                "ada produk tubuh yang tersedia?"
+            ],
+            "responses": [
+                "-Menyambungkan Retinol Serum -Skin Pembaharuan Vitamin C Serum -Skin Renewing Nightly Exfoliting treatment -Hydrating hyaluronic acne serum -kin Renepinol Serum -Reneling Gel Oil Front -skin Renewing Gel -Acne Control Gel -Hidrating full-face acne treatment gel -CeraVe Control 700x875"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-facial-serums",
+            "patterns": [
+                "Dapatkah Anda berbagi produk Serum wajah yang tersedia?",
+                "serum berbagi",
+                "berbagi beberapa serum cerve wajah yang baik"
+            ],
+            "responses": [
+                "Membuat Ulang Penghapusan Balm - Mengkompor Penghapusan Pembuat Mata - Penghapusan Toner - Menghalangi Penghapusan Uap Tanaman-Bas"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-makeup-removers",
+            "patterns": [
+                "Dapatkah Anda membagikan produk Penghapus Makeup?",
+                "hapus make-up bersama",
+                "berbagi penghapus make-up cerave yang baik",
+                "berbagi beberapa cerave baik balsem pembersih"
+            ],
+            "responses": [
+                "Membuat Ulang Penghapusan Balm - Mengkompor Penghapusan Pembuat Mata - Penghapusan Toner - Menghalangi Penghapusan Uap Tanaman-Bas"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-sunscreens",
+            "patterns": [
+                "Dapatkah Anda berbagi produk sunscreen yang tersedia?",
+                "tabir surya",
+                "sunblocks"
+            ],
+            "responses": [
+                "-Hydrating Sheerscreen Broad Spectrum SPF 30 untuk Face & Body -AM Facial Moisturising Lotion with Sunscreen -Ultra-Light Moisturizing Lotion SPF 30 -Hydrating Mineral SPF"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-baby",
+            "patterns": [
+                "Dapatkah Anda membagikan produk yang tersedia bagi bayi?",
+                "produk bayi",
+                "ada produk bayi?"
+            ],
+            "responses": [
+                "-Baby Wash & Shampoo -Baby Moisturising Lusion -Baby Healing Ointment -Baby Moisturising Cream -Baby 45 SPF Tube Front -Baby Sunscreen Lotion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "products-for-ointment",
+            "patterns": [
+                "Dapatkah Anda membagikan produk Ointment yang tersedia?",
+                "salep yang tersedia?"
+            ],
+            "responses": [
+                "Healing Ointment - Baby Healing Ointment"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-acne",
+            "patterns": [
+                "Perhatian utama saya adalah jerawat",
+                "produk-produk terkait jerawat"
+            ],
+            "responses": [
+                "-Acne Foaming Cream Cleanser -Acne Control Cleanser -Acne Control Gel -Resurfacecing Retinol Serum -AM Moisturizing Luion with Sunscreen -PM Facial Moisturizing Lotion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-aging",
+            "patterns": [
+                "Perhatian utamaku adalah penuaan.",
+                "produk-produk penuaan"
+            ],
+            "responses": [
+                "Skin Renewing Eye Cream - Skin Renewing Night Cream -skin Renewing Nightly Exfoliting Treatment - Skin Renewing Vitamin C Serum - Kulit Renetinol Serum - Skin Day Cream - Skin Renewing Gel Oil"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-cracked-chafed-skin",
+            "patterns": [
+                "Keprihatinan utama saya adalah Cracked, Chafed Skin",
+                "produk kulit retak"
+            ],
+            "responses": [
+                "Penyembuhan Ointment-Therapautic Hand Cream-Baby Healing Ointment"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-diabetic-skin",
+            "patterns": [
+                "Perhatian utama saya adalah Diabetic Skin",
+                "diabetes"
+            ],
+            "responses": [
+                "-Diabetics Dry Skin Relief Moisturizing Cream -Diabetics' Dry Skin Cleansing Wash -Diabetics Dry Skin Relief Hand and Foot Cream - Moisturizing Cream -Hisdrating Fac Cleanser"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-eczema",
+            "patterns": [
+                "Perhatian utama saya adalah Eczema",
+                "eksim"
+            ],
+            "responses": [
+                "-Eczema Relief Creamy Oil -Hydrocortisone Anti-Itch Cream"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-itchy-skin",
+            "patterns": [
+                "Perhatian utama saya adalah Itchy Skin",
+                "Kulit gatal",
+                "kulit jengkel",
+                "kulit sensitif"
+            ],
+            "responses": [
+                "-Itch Relief Moisturizing Cream -Pramoxine Hydrochloride itch relief cream -Itch Moisturising Lotion -Hydrocortone Anti-Itch Cream"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-psoriasis",
+            "patterns": [
+                "Perhatian utama saya adalah Psoriasis",
+                "Psoriasis"
+            ],
+            "responses": [
+                "-Psoriasis Moisturizing Cream -Psoriasis Cleanser"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "concern-rough-and-bumpy",
+            "patterns": [
+                "Perhatian utama saya adalah kasar dan Bumpy kulit",
+                "kasar kulit",
+                "kulit yang bergelombang",
+                "kulit kering"
+            ],
+            "responses": [
+                "-Rewning SA Cleanser -SA Cream for Rough & Bumpy Skin -SA Lotion for Rough & Bumpy Skin -SA Cleanser Bar for Rough & Bumpy Skin -SA Body Wash for Rough & Bumpy Skin"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skin_combo",
+            "patterns": [
+                "Sarankan produk untuk kulit kombinasi",
+                "produk cerave untuk kulit kombo"
+            ],
+            "responses": [
+                "-Comforting Eye Makeup Remover -Makeup Reming Cleanser Balm -Hydrating Toner -Moisturizing Cream -Daily Moisturizing Facial Cleancer -AM Facial Moisturising Lotion with Suncreen -Foaming Cleanial Cleaners -Hodrating Cream-Foam Cleaning -PMMication Moisturising Lution -Rewising SA Cleaner -Moisturizing Cream -Daily Moisturizing Luily Moisturing Luicial Loicial Loicialing -Hydra Facinginginging"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skin_dry",
+            "patterns": [
+                "Sarankan produk untuk kulit kering",
+                "produk serave untuk kulit kering"
+            ],
+            "responses": [
+                "-Comforting Eye Makeup Remover -Makeup Remoting Cleanser Balm -Skin Renewing Eye Cream -Hydrating Makeup Compating Eyes-Make Cleanzer -Moisturizing Cream -Daily Moisturising Lotion -Hydrating Cleanial Cleancer -AM Fasturizing Lotion with Sunsdrating Cream-to-Fo-Fo-Fo-Fam Cleaning Cream Reparally-Scream -Anching-Sum Hyurmoning-ferning-ferning"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skin_normal",
+            "patterns": [
+                "Sarankan produk untuk kulit normal",
+                "produk cerave untuk Norma; kulit"
+            ],
+            "responses": [
+                "-Combuting Eye Makeup Remover -Hydrating Toner -Hydrating Makeup Menghapus Penghapusan Tanaman -Moistur Krim -Daily Moisturizing Lotion -Hisdrating Facial Cleaner -AM Facial Moisturial Moturizing Lotion with Suncreen -Foam -Foam Cleaning Cleaning -Hydrating Cream-Fodrating-Fo-Foam Cleally Speally Moistizing -kin Exusizing Night Expling Eyeirting -kin Eye Reliting Cream -# Eye Reliance -Memanting Cleanzer Balsy Balursy Balurninging -Hursy Seluming -Histeringing 30-Moighting"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skin_oily",
+            "patterns": [
+                "Sarankan produk untuk kulit berminyak",
+                "produk cerave untuk kulit berminyak"
+            ],
+            "responses": [
+                "-Menemukan Pembersih Facial -Penghapusan Pembuat Mata -AM Memuakkan Lotion Memudar Layar Matahari -PM Memusingkan Lotion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skin_sensitive",
+            "patterns": [
+                "Sarankan produk untuk kulit sensitif",
+                "produk serave untuk kulit sensitif",
+                "produk serave untuk kulit jengkel"
+            ],
+            "responses": [
+                "- Membuat Penghapusan Pembersih-Bas Balm -Komumpembersihan Mata Penghapus -Hydrating Toner -Hydrating Penghapusan Penghapusan Penghapusan Penghapusan Tanaman -Hydrating Krim-ke-Foam Cleaner SPF -Resurpose Retinol Serum -kin Renewing Nightly Exfoliting treatment -Skin Renewing Generic CVURLUM -Hydrating HyySUrnic-Fycrening-Fumnation-FumtNorral"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_benzoyl_peroxide",
+            "patterns": [
+                "Sarankan produk dengan benzoyl peroksida"
+            ],
+            "responses": [
+                "-Acne Foaming Cream Cleanser - BENZOYL PEROXIDE ACNE TREATMEN - 4% BENZOYL PEROXIDE"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_dimethicone",
+            "patterns": [
+                "Sarankan produk dengan dimethicone"
+            ],
+            "responses": [
+                "- Mengotori krim kulit putih kulit putih krim kulit putih kulit putih - kulit yang menghasilkan krim antipenyihir - krim antipedas -SA krim untuk kulit kasar & bully -SA Lotion untuk Rough & Bumpy Skin -Itch Relief Moisturizing Cream -Theraputic Hand Cream -Baby Mourising Lusion -Baby Moisturizing Cream"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_hyaluronic_acid",
+            "patterns": [
+                "Sarankan produk dengan asam hyaluronic"
+            ],
+            "responses": [
+                "-Combuting Eye Makeup Remover -Hidrating Sheer Sunscreen SPF 30 untuk Face & Body -Hybred Blend of Sun Filters Abserbs dan Reflects the SunNeagings -Daily Moisturizing Lotion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_lactic_acid",
+            "patterns": [
+                "Sarankan produk dengan asam laktat"
+            ],
+            "responses": [
+                "Skin Renewing Nightly Exfoliating treatment -SA Cream for Rough & Bumpy Skin -SA Lotion for Rough & Bumpy Skin -Acne Control Gel"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_niacinamide",
+            "patterns": [
+                "Sarankan produk dengan niacinamide"
+            ],
+            "responses": [
+                "-Combuting Eye Makeup Remover -Acne Control Cleanser -AM Facial Moisturial Lotion with Sunscreen -Foaming Facial Cleanser"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_petrolatum",
+            "patterns": [
+                "Sarankan produk dengan bensinatum"
+            ],
+            "responses": [
+                "Mengotori Krim - Penyembuhan Ointment - Hidrating Cleanser Bar - Bayi Menyembuhkan Ointment"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_pramoxine_hydrochloride",
+            "patterns": [
+                "Sarankan produk dengan pratoxine hidroklorida"
+            ],
+            "responses": [],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_retinol",
+            "patterns": [
+                "Sarankan produk dengan retinol"
+            ],
+            "responses": [
+                "Resurfaceing Retinol Serum - Skin Renetinol Retinol Serum -kin Renewing Day Cream - Anti-aging pelembab dengan retinol & SPF"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_salicylic_acid",
+            "patterns": [
+                "Menyarankan produk dengan asam salinik"
+            ],
+            "responses": [
+                "-Acne Control Gel -Rewning SA Cleanser -SA Cream for Rough & Bumpy Skin -SA Lotion for Rough & Bumpy Skin"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_titanium_dioxide",
+            "patterns": [
+                "Sarankan produk dengan titanium dioksida"
+            ],
+            "responses": [],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_urea",
+            "patterns": [
+                "Sarankan produk dengan urea"
+            ],
+            "responses": [],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_vitamin_C",
+            "patterns": [
+                "Sarankan produk dengan vitamin C"
+            ],
+            "responses": [
+                "Kulit Memperbarui Vitamin C Serum"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ingredient_zinc_oxide",
+            "patterns": [
+                "Sarankan produk dengan seng oksida"
+            ],
+            "responses": [
+                "-Hydrating Sheer Sunscreen Broad Spectrum SPF 30 untuk Face & Body -AM Facial Moisturing Lotion with Sunscreen -Hydrating Mineral SPF 30 Face Seper Tint -SPF 30 Tinted Hydra Mineral Sunscreen untuk Face -SPF 50 Hydra Mineral Sunscreen Face"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "best_seller_products",
+            "patterns": [
+                "Apa yang paling laris?"
+            ],
+            "responses": [
+                "-Moisturising Cream -Daily Moisturizing Lotion -Cerave Daily Hidrating Cleanser -Hydrating Facial Cleanser -AM Moisturial Moisturizing Lotion with Sunscreen -Foaming Facial Cleanser -PM Facial Moisturial Mourial"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "best_new_products",
+            "patterns": [
+                "Sarankan beberapa produk baru"
+            ],
+            "responses": [
+                "-Hydrating Sheer Sunscreen SPF Broad Spectrum untuk Face & Body -Skin Renewing Eye Cream -Comforting Eye Makeup Remover - Makeup Reming Cleanser Balm -Hydrating Toner -Hydrating Makeup Remaps -SA Cleanser Bar for Rough & Bumpy Skin -Acne Control Gel"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "Dimana pesanan dengan ID 562B78?",
+                "urutan jalur 562B78",
+                "Dimana pesananku dengan ID 562B78?"
+            ],
+            "responses": [
+                "Anda dapat melacak pesanan Anda di sini"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skincare_routine",
+            "patterns": [
+                "Saya perlu membangun rutin perawatan kulit saya",
+                "Aku ingin mengikuti rutinitas perawatan kulit yang baru.",
+                "Bimbing saya tentang rutin skincare saya"
+            ],
+            "responses": [
+                "Tentu, apa tujuan kulit Anda saat ini? - REDUCE OIL PRODUKSI - Soothe DRY SKIN -REDUCE ACNE -SHRINK PORES"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "price_range",
+            "patterns": [
+                "REDUCE OIL PRODUKSI",
+                "SOOTHE DRY SKIN",
+                "ACNE REDUCE",
+                "TUJUAN SHRINK"
+            ],
+            "responses": [
+                "Mengerti dan berapa harga produk khasmu?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "budget",
+            "patterns": [
+                "BUDGET",
+                "MODERATE",
+                "PRUMIUM",
+                "VARIES"
+            ],
+            "responses": [
+                "Jadi, bagaimana Anda ingin rutin perawatan kulit? - 3 RUTINE STEP - 4 RUTINE - 5 RUTINE STEP"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "steps_in_skincare",
+            "patterns": [
+                "RUTIN 3-STEP",
+                "RUTIN 4-STEP",
+                "RUTIN 5 STEP"
+            ],
+            "responses": [
+                "Hmm dan apakah Anda memiliki alergi kulit dari salah satu berikut? -NUTS -GLUT -ACIDS -FAGRAGRANCE -Saya TIDAK MEMILIKI ALLERGIES"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skincare_allergies",
+            "patterns": [
+                "NUTS",
+                "GLUTEN",
+                "AGIDS",
+                "FRAGRANCE",
+                "Aku tidak punya sekutu",
+                "kosong",
+                "tidak ada alergi"
+            ],
+            "responses": [
+                "Benar dan apa usia Anda?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "DI BAWAH 25",
+                "25-34",
+                "23",
+                "35-44",
+                "45+",
+                "tidak nyaman berbagi usia saya"
+            ],
+            "responses": [
+                "Kanan dan apa yang terbaik menggambarkan kulit Anda? -OILY -DRY, -IRRRITATED, -COMBINASI"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "oily_skin",
+            "patterns": [
+                "produk yang baik untuk kulit berminyak",
+                "rutin untuk kulit berminyak",
+                "Aku punya kulit berminyak",
+                "OILY",
+                "Aku punya kulit mengkilap"
+            ],
+            "responses": [
+                "Pagi rutin: 1) Membersihkan - Membusuh pembersih gel untuk normal untuk kulit berminyak 2) Pengembus - Memotivasi krim mata untuk lingkaran gelap dan puffiness 3) Memobilisasi dan melindungi - pelembab bebas minyak ringan dengan SPF"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dry_skin",
+            "patterns": [
+                "produk yang baik untuk kulit kering",
+                "rutin untuk kulit kering",
+                "Aku punya kulit kering",
+                "DRY",
+                "Kulitku sangat kelap-kelip."
+            ],
+            "responses": [
+                "Pagi rutin: 1) Bersihkan pembersih Hydra untuk kulit normal-to-dry 2) Memotivasi krim mata untuk lingkaran gelap dan puffiness 3) Moisturize and protect - AM Facial Moisturizing Lotion with Sunscreen"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "combination_skin",
+            "patterns": [
+                "produk yang baik untuk kulit kombinasi",
+                "rutin untuk kulit kombinasi",
+                "panduan tentang kulit kombinasi",
+                "Aku punya kulit kombinasi",
+                "PERINTAH",
+                "COMBO",
+                "Aku berminyak di t-zone dan kering di bagian lain"
+            ],
+            "responses": [
+                "Pagi rutin: 1) Bersihkan - asam Salincylat busa gel pembersih untuk kulit halus 2) Pengembus krim mata untuk lingkaran gelap dan puffiness 3) Moisturize dan melindungi - pelembab bebas minyak ringan dengan SPF"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "combination_skin",
+            "patterns": [
+                "tips berbagi skincare",
+                "Tip perawatan kulit",
+                "Beritahu tip skincare",
+                "tolong kirim beberapa tips untuk kulit yang baik",
+                "bisakah kau berbagi beberapa kiat perawatan kulit untuk kulit kaca?"
+            ],
+            "responses": [
+                "Tetap Hidrasi.",
+                "Makanlah Diet Sehat",
+                "Menjauhlah dari Matahari.",
+                "Moisturize, Moisturize, Moisturize.",
+                "Dapatkan tidur kecantikan setidaknya 8 jam.",
+                "Jangan Tug pada Kulit Anda",
+                "Jangan Lupa Leher Anda & Tangan",
+                "Jaga Stres Tetap Diperiksa",
+                "Jadilah lembut.",
+                "Jangan Lupa Bibir Anda",
+                "Menjauhlah dari air panas"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
